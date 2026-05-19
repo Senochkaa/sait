@@ -5,6 +5,7 @@ body {
 div {
     display: flex;
     padding: 20px;
+    
 }
 
 .head {
@@ -207,29 +208,43 @@ div {
 }
 
 .txt::placeholder {
-    color: white;
+    color: rgb(184, 184, 184);
 }
 
 .cher {
-    border-radius: 4px;
-     background-color: rgba(185, 185, 185, 0.507);
-    border:rgba(185, 185, 185, 0.507); 
-    width: 70%;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vkvad {
+    flex-flow: row wrap;
+    display: flex;
+}
+
+.imgg {
+    height: 30px;
+    width: 30px;
+}
+
+.txtkart {
+    display: flex;
     flex-direction: column;
 }
+
+.kartt {
+    width: 45%;
+     margin-right: 30px;
+}
+
 
 .tt {
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 50px;
 }
 
 .tt.end {
     margin-bottom: 0;
-}
-
-.orn {
-    color:  rgb(209, 136, 0);
 }
 
 hr {
@@ -322,7 +337,6 @@ margin-right: 20px;
         width: 40% !important;
         margin: 10px auto !important;
     }
-
 
     .cart {
         width: 100% !important;
